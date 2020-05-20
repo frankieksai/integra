@@ -3,25 +3,25 @@
     <div class="navbar-fixed">
       <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-          <nuxt-link to="/#top">
+          <nuxt-link to="#top">
             <img src="~/assets/integra_logo.png" class="brand-logo" alt />
           </nuxt-link>
 
           <ul class="right hide-on-med-and-down">
             <li>
-              <nuxt-link to="/#about">О компании</nuxt-link>
+              <nuxt-link to="#about">О компании</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/#features">Преимущества</nuxt-link>
+              <nuxt-link to="#features">Преимущества</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/#service">Услуги</nuxt-link>
+              <nuxt-link to="#service">Услуги</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/#cert">Сертификаты</nuxt-link>
+              <nuxt-link to="#cert">Сертификаты</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/#contacts">Контакты</nuxt-link>
+              <nuxt-link to="#contacts">Контакты</nuxt-link>
             </li>
           </ul>
 
@@ -32,25 +32,25 @@
       </nav>
     </div>
     <ul class="sidenav" id="nav-mobile">
-      <li><nuxt-link to="/#top">            <img src="~/assets/integra_logo.png" class="brand-logo" alt />
+      <li><nuxt-link to="#top">            <img src="~/assets/integra_logo.png" class="brand-logo" alt />
 </nuxt-link></li>
       <li>
-        <nuxt-link to="/#about">О компании</nuxt-link>
+        <nuxt-link to="#about">О компании</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/#features">Преимущества</nuxt-link>
+        <nuxt-link to="#features">Преимущества</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/#service">Услуги</nuxt-link>
+        <nuxt-link to="#service">Услуги</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/#cert">Сертификаты</nuxt-link>
+        <nuxt-link to="#cert">Сертификаты</nuxt-link>
       </li>
       <li>
         <div class="divider"></div>
       </li>
       <li>
-        <nuxt-link to="/#contacts">Контакты</nuxt-link>
+        <nuxt-link to="#contacts">Контакты</nuxt-link>
       </li>
     </ul>
     <main>
