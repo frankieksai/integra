@@ -1,12 +1,13 @@
 # integra web site
 
-> Web site for Integra LLC
+## Web site for Integra LLC
+
 Based on [NuxtJS](https://nuxtjs.org/) and [Materialize CSS](https://materializecss.com/)
-
 Heavily used parallax effects and [google icons](https://material.io/resources/icons/)
+Photos by :heart: [Unsplash](https://unsplash.com/)
 
-Photos by [Unsplash](https://unsplash.com/)
 Mobile-friendly. 
+
 
 ## Build Setup
 
