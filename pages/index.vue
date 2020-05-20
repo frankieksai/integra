@@ -34,7 +34,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax-container">
+    <!-- <div class="parallax-container">
       <div class="section no-pad-bot"></div>
       <div class="parallax">
         <img
@@ -42,7 +42,7 @@
           alt
         />
       </div>
-    </div>
+    </div> -->
     <div class="container" id="features">
       <div class="section">
         <div class="header center">
