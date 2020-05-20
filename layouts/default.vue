@@ -3,54 +3,54 @@
     <div class="navbar-fixed">
       <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-          <a href="/#top">
+          <nuxt-link to="/#top">
             <img src="~/assets/integra_logo.png" class="brand-logo" alt />
-          </a>
+          </nuxt-link>
 
           <ul class="right hide-on-med-and-down">
             <li>
-              <a href="/#about">О компании</a>
+              <nuxt-link to="/#about">О компании</nuxt-link>
             </li>
             <li>
-              <a href="/#features">Преимущества</a>
+              <nuxt-link to="/#features">Преимущества</nuxt-link>
             </li>
             <li>
-              <a href="/#service">Услуги</a>
+              <nuxt-link to="/#service">Услуги</nuxt-link>
             </li>
             <li>
-              <a href="/#cert">Сертификаты</a>
+              <nuxt-link to="/#cert">Сертификаты</nuxt-link>
             </li>
             <li>
-              <a href="/#contacts">Контакты</a>
+              <nuxt-link to="/#contacts">Контакты</nuxt-link>
             </li>
           </ul>
 
-          <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+          <nuxt-link to="#" data-target="nav-mobile" class="sidenav-trigger">
             <i class="material-icons">menu</i>
-          </a>
+          </nuxt-link>
         </div>
       </nav>
     </div>
     <ul class="sidenav" id="nav-mobile">
-      <li><a href="/#top">            <img src="~/assets/integra_logo.png" class="brand-logo" alt />
-</a></li>
+      <li><nuxt-link to="/#top">            <img src="~/assets/integra_logo.png" class="brand-logo" alt />
+</nuxt-link></li>
       <li>
-        <a href="/#about">О компании</a>
+        <nuxt-link to="/#about">О компании</nuxt-link>
       </li>
       <li>
-        <a href="/#features">Преимущества</a>
+        <nuxt-link to="/#features">Преимущества</nuxt-link>
       </li>
       <li>
-        <a href="/#service">Услуги</a>
+        <nuxt-link to="/#service">Услуги</nuxt-link>
       </li>
       <li>
-        <a href="/#cert">Сертификаты</a>
+        <nuxt-link to="/#cert">Сертификаты</nuxt-link>
       </li>
       <li>
         <div class="divider"></div>
       </li>
       <li>
-        <a href="/#contacts">Контакты</a>
+        <nuxt-link to="/#contacts">Контакты</nuxt-link>
       </li>
     </ul>
     <main>
