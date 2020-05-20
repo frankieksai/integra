@@ -2,13 +2,13 @@
 
 ## Web site for Integra LLC
 
-Based on [NuxtJS](https://nuxtjs.org/) and [Materialize CSS](https://materializecss.com/)
+Static web-site based on [NuxtJS](https://nuxtjs.org/) and [Materialize CSS](https://materializecss.com/)
 Heavily used parallax effects and [google icons](https://material.io/resources/icons/)
 Photos by :heart: [Unsplash](https://unsplash.com/)
 
 Mobile-friendly. 
 
-
+Hosted on github pages.
 ## Build Setup
 
 ```bash
