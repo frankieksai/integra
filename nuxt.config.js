@@ -49,6 +49,9 @@ export default {
   /*
   ** Build configuration
   */
+ router: {
+  base: '/integra/'
+ },
   build: {
     /*
     ** You can extend webpack config here
