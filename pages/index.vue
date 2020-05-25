@@ -1,27 +1,10 @@
 <template>
   <div class>
-    <div class="parallax-container">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <br />
-          <br />
-          <h1 class="header center blue-text darken-4">Integra</h1>
-          <br />
-          <br />
-          <div class="row center">
-            <h5
-              class="header col s12 white-text"
-            >Поставки электронных компонентов ⚡</h5>
-          </div>
-        </div>
-      </div>
-      <div class="parallax">
-        <img
-          src="https://images.unsplash.com/photo-1553408226-d7bf0d27f9e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
-          alt
-        />
-      </div>
-    </div>
+    <parallax
+      img="https://images.unsplash.com/photo-1553408226-d7bf0d27f9e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
+      text="Поставки электронных компонентов ⚡"
+      header="Integra"
+    />
     <div class="container" id="about">
       <div class="section">
         <div class="row">
@@ -34,15 +17,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="parallax-container">
-      <div class="section no-pad-bot"></div>
-      <div class="parallax">
-        <img
-          src="https://images.unsplash.com/photo-1557701197-2f99da0922dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
-          alt
-        />
-      </div>
-    </div> -->
     <div class="container" id="features">
       <div class="section">
         <div class="header center">
@@ -120,15 +94,9 @@
         </div>
       </div>
     </div>
-    <div class="parallax-container">
-      <div class="section no-pad-bot"></div>
-      <div class="parallax">
-        <img
-          src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-          alt
-        />
-      </div>
-    </div>
+    <parallax
+      img="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+    />
     <div class="container" id="service">
       <div class="section">
         <div class="row">
@@ -156,26 +124,20 @@
         </div>
       </div>
     </div>
-    <div class="parallax-container">
-      <div class="section no-pad-bot"></div>
-      <div class="parallax">
-        <img
-          src="https://images.unsplash.com/photo-1535136104956-115a2cd67fc4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1233&q=80"
-          alt
-        />
-      </div>
-    </div>
+    <parallax
+      img="https://images.unsplash.com/photo-1535136104956-115a2cd67fc4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1233&q=80"
+    />
     <div class="container" id="cert">
       <div class="section">
-        <div class="row center">
-          <div class="col s6 center">
-            <h3>Сертификаты</h3>
+        <div class="row">
+          <h3>Сертификаты</h3>
+          <div class="col s6 ">
+            <img class="materialboxed container" width="450px" src="~/assets/certificate_integra.jpg" alt />
+          </div>
+          <div class="col s5 ">
             <p
               class="light flow-text left-align"
             >В 2019 году компания ООО "Интегра" успешно прошла аттестацию в Международной системе сертификации на соответствие системы менеджмента качества компании требованиям ГОСТ Р ИСО 9001-2015 (ISO 9001:2015), номер сертификата № MSS.RU.03605.19</p>
-          </div>
-          <div class="s6 right-align">
-            <img class="materialboxed" width="450px" src="~/assets/certificate_integra.jpg" alt />
           </div>
         </div>
       </div>
@@ -188,8 +150,9 @@ import Vue from "vue";
 // import Logo from '~/components/Logo.vue'
 //@ts-ignore
 import M from "materialize-css";
+import parallax from "@/components/parallax.vue";
 export default Vue.extend({
-  components: {},
+  components: { parallax },
   mounted() {
     // M.autoinit()
     M.AutoInit();
