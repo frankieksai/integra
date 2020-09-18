@@ -63,9 +63,9 @@
             <h5 class="white-text">Контакты</h5>
             <p class="grey-text">Офис компании ООО "Интегра" в Санкт-Петербурге:</p>
             <ul>
-              <li class="grey-text">190020, Санкт-Петербург, Лифляндская улица, дом 1</li>
+              <li class="grey-text">198096, Санкт-Петербург, улица Зайцева, дом 41А, БЦ Румб</li>
               <li>
-                <a href="tel:+79215797956">Телефон: +7 812 565 30 65</a>
+                <a href="tel:+78125653065">Телефон: +7 812 565 30 65</a>
               </li>
               <li>
                 <a href="mailto:zaharov@integraelec.ru">E-mail: zaharov@integraelec.ru</a>
