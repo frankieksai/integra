@@ -3,7 +3,7 @@
     <parallax
       img="https://images.unsplash.com/photo-1553408226-d7bf0d27f9e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
       text="Поставки электронных компонентов ⚡"
-      header="Integra"
+      header="ИНТЕГРА"
     />
     <div class="container" id="about">
       <div class="section">
