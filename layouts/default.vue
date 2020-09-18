@@ -65,7 +65,7 @@
             <ul>
               <li class="grey-text">190020, Санкт-Петербург, Лифляндская улица, дом 1</li>
               <li>
-                <a href="tel:+79215797956">Телефон: +7 921 579 79 56</a>
+                <a href="tel:+79215797956">Телефон: +7 812 565 30 65</a>
               </li>
               <li>
                 <a href="mailto:zaharov@integraelec.ru">E-mail: zaharov@integraelec.ru</a>
