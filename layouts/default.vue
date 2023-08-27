@@ -68,7 +68,7 @@
                 <a href="tel:+78125653065">Телефон: +7 812 565 30 65</a>
               </li>
               <li>
-                <a href="mailto:zaharov@integraelec.ru">E-mail: zaharov@integraelec.ru</a>
+                <a href="mailto:zaharov@integraelec.ru">E-mail: info@integraelec.ru</a>
               </li>
             </ul>
           </div>
